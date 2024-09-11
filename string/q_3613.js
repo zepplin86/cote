@@ -36,7 +36,7 @@ const isErrorCase = checkErrorCase(variableName);
 if (isErrorCase) {
     console.log('isErrorCase');
     console.log('Error!');
-} else if (isCamelCase === isSnakeCase && variableName !== variableName.toLowerCase()) {
+} else if (isCamelCase === true && isSnakeCase === true) {
     console.log('isCamelCase === isSnakeCase');
     console.log('Error!');
 } else {
